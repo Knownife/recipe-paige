@@ -1,3 +1,71 @@
-body{
+body {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:hsl(30, 54%, 90%);
 	
+}
+li{
+	padding-left: 1em;
+	margin-top: 1em;
+}
+li::marker{
+	color: hsl(332, 51%, 32%);
+}
+p{
+	font-family: 'Outfit', sans-serif;
+		font-weight: 400;
+}
+
+.recipe-container {
+	width:  60%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 40px;
+	padding: 30px;
+	background-color:hsl(330, 100%, 98%);
+}
+
+.recipe-omelette-icon {
+	width: 100%;
+	margin: auto;
+	border-radius: 15px;
+}
+
+.recipe-omelette-tittle{
+	font-family: 'Young Serif', serif;
+		font-weight: 400;
+}
+
+.recipe-omelette-preptime{
+	margin-left: 3rem;
+}
+.recipe-omelette-time{
+	color: hsl(332, 51%, 32%);
+}
+.chosen-word{
+	color: hsl(30, 10%, 34%);
+}
+
+.recipe-omelette-name{
+	color: hsl(14, 45%, 36%);
+}
+
+.chosen-kcal{
+	color: hsl(14, 45%, 36%);
+}
+
+.recipe-omelette-table{
+	display: flex;
+	justify-content: space-between;
+	padding-right: 40%;
+	padding-left: 10%;
+}
+.recipe-omelette-name-table{
+	flex-direction: column;
+}
+.recipe-omellete-kcal-table{
+	flex-direction: column;
 }
